@@ -1,0 +1,468 @@
+/* ============================= */
+/* BASIC SETUP */
+/* ============================= */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+}
+/* ============================= */
+/* REUSALE COMPONANTS */
+/* ============================= */
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+ul {
+	list-style-type: none;
+}
+h1 {
+	width: 84rem;
+}
+section {
+	padding: 5rem 0;
+}
+/* ============================= */
+/* HEADER SECTION */
+/* ============================= */
+header {
+	background: #fff;
+}
+header .logo img {
+	width: 8rem;
+	margin-top: 6rem;
+	float: left;
+}
+.main-nav {
+	text-align: center;
+	margin-right: 12rem;
+}
+.main-nav li {
+	display: inline-block;
+	margin-top: 6.5rem;
+}
+.main-nav li a:link {
+	text-decoration: none;
+	font-size: 1.9rem;
+	text-transform: capitalize;
+	margin-left: 4rem;
+	color: #31458B;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+}
+.main-nav li:hover a:link {
+	color: #FF3946;
+	cursor: pointer;
+}
+.main-nav li:nth-child(1) a:link {
+	margin-left: 0;
+	text-transform: uppercase;
+	color: #FF3946;
+}
+.contact-us-btn {
+	float: right;
+	margin-top: -2rem;
+	margin-right: 2rem;
+}
+.contact-us-btn a {
+	text-decoration: none;
+	font-size: 2rem;
+	text-transform: capitalize;
+	color: #FF3946;
+	font-weight: 600;
+	background: #fff;
+	padding: 1.5rem 3rem;
+	transition: 0.5s;
+}
+.contact-us-btn a:hover {
+	box-shadow: 0.05rem 0.05rem 0.4rem #e3c1c1;
+	cursor: pointer;
+}
+header .text {
+	margin-top: 25rem;
+}
+header .text h1 {
+	font-size: 7rem;
+	color: #314584;
+	margin-bottom: 4rem;
+}
+header .text .header-text {
+	font-size: 2rem;
+	color: #6E757A;
+	margin-bottom: 5rem;
+}
+header .text .btn .hero-btn  {
+	text-decoration: none;
+	background: #FF3946;
+	border: 2px solid #FF3946;
+	color: #fff;
+	font-weight: 700;
+	padding: 2rem 4rem;
+	border-radius: 4rem;
+	text-transform: capitalize;
+	transition: 0.2s;
+	box-shadow: 0 0.3rem 1rem #e3c1c1;
+}
+header .text .btn .hero-btn:hover {
+	background: #fff;	
+	color: #314584;
+	cursor: pointer;
+}
+header .text .btn .btn2 {
+	margin-left: 4rem;
+	text-decoration: none;
+	font-size: 1.9rem;
+	color: #314584;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+header .text .btn .btn2:hover {
+	color: #FF3946;
+	cursor: pointer;
+}
+header .header-img {
+	width: 62rem;
+	height: auto;
+	margin-top: 8rem;
+}
+/* STICKY MENU */
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.9);
+	border-bottom: 2px solid orange;
+	padding: 2rem;
+	z-index: 999;
+}
+.sticky .logo img {
+	margin-top: 1rem;
+}
+.sticky ul li {
+	margin-top: 1rem;
+}
+/* MOBILE MENU */
+.mobile-menu span {
+	font-size: 5rem;
+	color: #333;
+	float: right;
+	margin-top: 5rem;
+	display: none;
+}
+.mobile-menu span:hover {
+	cursor: pointer;
+}
+.menus {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background: rgba(0,0,0,0.9);
+	transition: 0.5s;
+	z-index: 999;
+	overflow-x: hidden;
+}
+.overlay-content {
+	position: relative;
+	top: 15%;
+	width: 100%;
+	text-align: center;
+}
+.overlay-content a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f1f1f1;
+	font-weight: 400;
+	font-size: 4rem;
+	margin: 5rem 0;
+}
+.overlay-content a:hover {
+	color: orange;
+}
+.sticky .mobile-menu span {
+	margin-top: 0;
+}
+.closebtn {
+	color: #fff;
+	font-size: 7rem;
+	position: absolute;
+	top: 3rem;
+	right: 6rem;
+	text-decoration: none;
+}
+/* ============================= */
+/* ABOUT US SECTION */
+/* ============================= */
+.about-us-section {
+	background: #fff;
+}
+.about-us-section h2 {
+	font-size: 4rem;
+	color: #314584;
+	line-height: 5rem;
+	margin-bottom: 5rem;
+}
+.about-us-section .text-1 .about-us-btn {
+	text-decoration: none;
+	background: #FF3946;
+	border: 2px solid #FF3946;
+	color: #fff;
+	font-weight: 700;
+	padding: 2rem 4rem;
+	border-radius: 4rem;
+	text-transform: capitalize;
+	transition: 0.2s;
+	box-shadow: 0 0.3rem 1rem #e3c1c1;
+}
+.about-us-section .text-1 .about-us-btn:hover {
+	background: #fff;	
+	color: #314584;
+	cursor: pointer;
+}
+.about-us-section .color {
+	background: #fff;
+	padding: 4rem 4.5rem;
+	box-shadow: -0.1rem 0.2rem 1.5rem #e3c1c1;
+	min-height: 40rem;
+}
+.about-us-section .color:hover {
+	border: 1px solid red;
+	cursor: help;
+}
+.text-1 img {
+	margin-bottom: 2rem;
+}
+.text-1 h3 {
+	font-size: 3.2rem;
+	color: #314584;
+	width: 50%;
+	line-height: 4rem;
+	margin-bottom: 1rem;
+}
+.text-1 p {
+	font-size: 1.7rem;
+	color: #4A79B9;
+	width: 85%;
+	line-height: 2.5rem;
+}
+.about-us-section .text-2 img {
+	width: 95%;
+	margin-top: 4rem;
+}
+.about-us-section .text-3 {
+	margin-top: 4rem;
+}
+.about-us-section .text-3 h4 {
+	color: #FF3946;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+.about-us-section .text-3 .h3 {
+	font-size: 4rem;
+	color: #314584;
+	width: 60%;
+	line-height: 5.5rem;
+	margin-bottom: 3rem;
+}
+.about-us-section .text-3 p {
+	font-size: 1.7rem;
+	color: #4A79B9;
+	width: 98%;
+	line-height: 3rem;
+	letter-spacing: 0.025em;
+	font-weight: 600;
+}
+/* ============================= */
+/* PORTFOLIO SECTION */
+/* ============================= */
+.portfolio-section h2 {
+	color: #314584;
+	font-size: 4rem;
+	width: 35%;
+	margin-bottom: 4rem;
+}
+.portfolio-section .col:nth-child(4) {
+	margin-left: 0;
+}
+.portfolio-section img {
+	width: 34rem;
+	height: auto;
+	margin: 0 1rem;
+}
+.portfolio-section a {
+	text-decoration: none;
+	font-size: 1.9rem;
+	color: #FF3946;
+	text-transform: capitalize;
+	font-weight: 700;
+	display: block;
+	text-align: center;
+	margin-top: 3rem;
+}
+.portfolio-section a:hover {
+	cursor: pointer;
+	color: #314584;
+}
+/* ============================= */
+/* BLOG SECTION */
+/* ============================= */
+.blog-section h4 {
+	color: #FF3946;
+	margin-bottom: 2rem;
+}
+.blog-section h3 {
+	color: #314584;
+	font-size: 4rem;
+}
+.blog-section .text-5 {
+	margin-top: 5rem;	
+	padding: 5rem 2.5rem;	
+	box-shadow: -0.1rem 0.2rem 1.5rem #e3c1c1;
+	transition: 0.5s;
+	color: #31458B;
+}
+.blog-section .text-5:hover {
+	background: red;
+	cursor: pointer;
+	color: #fff;
+}
+
+.blog-section .text-5 h6 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+.blog-section .text-5 .date {
+	color: #777582;
+	margin-bottom: 1.5rem;
+}
+.blog-section .text-5 .blog-title {
+	font-size: 2rem;
+	line-height: 3rem;
+	width: 100%;
+}
+/* ============================= */
+/* CONTACT SECTION */
+/* ============================= */
+.contact-us-section {
+	text-align: center;
+	padding: 10rem;
+}
+.contact-us-section h4 {
+	color: #FF3946;
+	margin-bottom: 2rem;
+	text-align: left;
+}
+.contact-us-section h3 {
+	color: #314584;
+	font-size: 4rem;
+	text-align: left;
+	margin-bottom: 4rem;
+}
+.contact-us-section form {
+	width: 100%;
+	margin: auto;
+}
+.contact-us-section input[type="text"],
+.contact-us-section input[type="email"],
+.contact-us-section textarea {
+	width: 100%;
+	padding: 1.5rem 2rem;
+	border: none;
+	background: #F4FAFE;
+	border-radius: 0.5rem;
+}
+.contact-us-section textarea {
+	height: 15rem;
+	margin-top: 3rem;
+	color: #434584;
+}
+.contact-us-section form ::placeholder {
+	color: #333;
+	text-transform: capitalize;
+}
+.contact-us-section .hero-btn {
+	text-decoration: none;
+	background: #FF3946;
+	border: 2px solid #FF3946;
+	color: #fff;
+	font-weight: 700;
+	padding: 2rem 4rem;
+	border-radius: 4rem;
+	text-transform: capitalize;
+	transition: 0.2s;
+	margin-top: 5rem;
+	display: inline flow-root list-item;
+	box-shadow: 0 0.3rem 1rem #e3c1c1;
+}
+.contact-us-section .hero-btn:hover {
+	background: #fff;	
+	color: #314584;
+	cursor: pointer;
+}
+.contact-us-section input[type="submit"] {
+	margin-top: 4rem;
+	text-decoration: none;
+	background: #FF3946;
+	border: 2px solid #FF3946;
+	color: #fff;
+	font-weight: 700;
+	padding: 2rem 4rem;
+	border-radius: 4rem;
+	text-transform: capitalize;
+	transition: 0.2s;
+	box-shadow: 0 0.3rem 1rem #e3c1c1;
+}
+.contact-us-section input[type="submit"]:hover {
+	background: #fff;	
+	color: #314584;
+	cursor: pointer;
+}
+/* ============================= */
+/* FOOTER SECTION */
+/* ============================= */
+footer {
+	background: #314584;
+	padding: 10rem 0;
+	text-align: center;
+}
+footer h6 {
+	color: #EBDCD8;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+}
+footer h3 {
+	color: #F63948;
+	font-size: 4.5rem;
+	letter-spacing: 0.5rem;
+	margin-bottom: 2rem;
+}
+footer ul li {
+	display: inline-block;
+	margin-bottom: 3rem;
+}
+footer ul li a:link {
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin: 0 3rem;
+	font-size: 2rem;
+}
+footer span {
+	color: #fff;
+}
+footer ul li:hover a {
+	color: orange;
+}

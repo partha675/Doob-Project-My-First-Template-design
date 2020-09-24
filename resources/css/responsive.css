@@ -1,0 +1,141 @@
+@media  only screen and (max-width: 1200px)
+{
+	h1 {
+		width: 100%;
+	}
+	html {
+		font-size: 50.5%;
+	}
+	.mobile-menu span {
+		display: none;
+	}
+}
+@media  only screen and (max-width: 1024px)
+{	
+	.main-nav {
+		display: none;
+	}
+	.row {
+		max-width: 114rem;
+		margin: 0 3rem;
+	}
+	.contact-us-btn a {
+        display: none;
+	}
+	.contact-us-section .span_1_of_2 {
+		width: 100%;
+	}
+	.contact-us-section form {
+		width: 100%;
+	}
+	.contact-us-section .col:nth-child(2) {
+		margin-left: 0;
+	}
+	.mobile-menu span {
+		display: block;
+	}
+	.mobile-menu span {
+		margin-top: 4rem;
+	}
+}
+@media  only screen and (max-width: 768px)
+{
+	section .span_1_of_2 {
+		width: 100%;
+	}
+	header .span_1_of_2 {
+		width: 100%;
+	}
+	header {
+		text-align: center;
+	}
+	.about-us-section .text-2 img {
+		width: 85%;
+		margin-top: 6rem;
+	}
+	.about-us-section {
+		text-align: center;
+	}
+	.about-us-section .text-3 .h3 {
+		width: 50%;
+		margin: auto;
+	}
+	.about-us-section .span_1_of_3 {
+		width: 100%;
+	}
+	.about-us-section h2 {
+		text-align: center;
+	}
+	.about-us-section .text-1 .about-us-btn {
+		margin-bottom: 4rem;
+		display: block;
+	}
+	.about-us-section .color {
+		padding: 2rem 3rem;
+		width: 40%;
+		height: 30%;
+		margin: 0 4rem;
+	}
+	.text-1 h3 {
+		width: 76%;
+		margin: auto;
+	}
+	.text-1 p {
+		width: 85%;
+		margin: auto;
+	}
+	.portfolio-section h2 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 4rem;
+	}
+	.portfolio-section .span_1_of_3 {
+		width: 49.13%;
+	}
+	.portfolio-section .col:nth-child(2),
+	.portfolio-section .col:nth-child(3),
+	.portfolio-section .col:nth-child(5),
+	.portfolio-section .col:nth-child(6) {
+		margin-left: 0;
+	}
+	.portfolio-section img {
+		width: 70%;
+		margin: 0 7rem;
+	}
+}
+@media  only screen and (max-width: 480px)
+{
+	html {
+		font-size: 40%;
+	}
+	header .header-img {
+		width: 45%;
+		margin: auto;
+		margin-top: 5rem;
+	}
+	.about-us-section .color {
+		width: 100%;
+		height: 30%;
+		margin: auto;
+		margin-top: 3rem;
+	}
+	.blog-section h4,
+	.blog-section h3 {
+		text-align: center;
+	}
+	.contact-us-section h4,
+	.contact-us-section h3 {
+		text-align: center;
+	}
+	.portfolio-section img {
+		width: 70%;
+		margin: 0 4rem;
+	}
+	.portfolio-section h2 {
+		width: 100%;
+		text-align: center;
+	}
+	header .logo img {
+		width: 12rem;
+	}
+}
